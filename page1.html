@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            margin: auto;
+            display: inline-block
+        }
+        .logo{
+            border: solid black 1px;
+            padding: 15px;
+            width: 90px;
+            margin-top: 20px;
+            margin-left: 200px;
+            float: left;
+        }
+        ul{
+            list-style: none;
+        }
+        .nav{
+            
+            margin-top: 27px;
+            margin-left: 410px;
+        }
+        .nav>li{
+            float: left;
+        }
+        .nav li a{
+            color: black;
+            font-size: 3px;
+            text-decoration:none;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            text-align: left;
+            padding: 15px;
+            background-color:whitesmoke;
+        }
+        .nav li:hover>ul{
+            display: block;
+        }
+        @media screen and (max-width:1200px){
+            .nav{width: 100%; text-align: center}
+        }
+        .secondbar{
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        .secondbar a{
+            font-size: 3px;
+            color: black;
+            
+        }
+        .block{
+            margin-left: 200px;
+            
+        }
+        #emailbar{
+            width:500px;
+            margin-left: 230px;
+        }
+        footer{
+            font-size: 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <div class="logo">
+            &nbsp;2 HAND <br>MARKET
+        </div>
+        <ul class="nav">
+            <li><a href="#">EN</a></li>
+            <li><a href="#">CH</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">PROJECT</a>
+                <ul>
+                    <li><a href="#">2017 SRING</a></li><br>
+                    <li><a href="#">2017 SUMMER</a></li><br>
+                    <li><a href="#">2017 AUTUNM</a></li><br>
+                    <li><a href="#">2017 WINTER</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="secondbar">
+        |&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">T O K Y O</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        |&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">L O N D E N</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        |&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">M I L A N O</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        |&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">T A I P E I</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+    </div>
+    <div class="block">
+        <div>
+            <img src="https://static01.nyt.com/images/2015/08/23/t-magazine/23womens-look-internet/23womens-look-internet-tmagArticle.jpg" alt="none">
+            <img src="https://bronzeageofcool.files.wordpress.com/2016/04/13a.jpg?w=840" alt="none">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/56/cb/16/56cb16e3c855dfbd9edbc62f81f30eb7.jpg" alt="none">
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <br>
+    <hr noshade>
+    <br>
+    <p align="center">Newsletter Updates (enter e-mail address) </p>
+    <div class="input-group" id="emailbar">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+<br>
+<br>
+<hr noshade>
+<footer>
+    © 2017 -2 HAND MARKET <br>
+    <p class="glyphicon glyphicon-envelope"></p>
+    <p class="glyphicon glyphicon-home"></p>
+</footer>
+<br>
+</body>
+</html>
